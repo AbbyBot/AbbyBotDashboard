@@ -17,7 +17,7 @@ export function Header() {
                 <div style={{ width: "100%", display: "flex" }}>
                     <section className="brand">
                         <img draggable="false" src={abbyLogo} alt="" width={50} height={50} />
-                        <button className='btn-link text-condensed'>
+                        <button className='btn-link text-condensed abbybot-text'>
                             AbbyBot-Dashboard
                         </button>
                     </section>

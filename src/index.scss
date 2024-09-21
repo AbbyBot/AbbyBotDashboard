@@ -48,11 +48,16 @@ button:hover { cursor: pointer }
   font-weight: 500;
   display: flex; /* Align icons and text in a row */
   align-items: center;
-  font-family: "Roboto Condensed", sans-serif; /* Apply specific typography */
+  font-family: "Roboto Condensed", sans-serif; /* Roboto condensed for all texts in dropdown */
+}
+
+.abbybot-text {
+
+  font-family: "Roboto Mono", sans-serif; /* Roboto mono for AbbyBot text */
 }
 
 .dropdown-menu li a svg {
-  margin-right: 8px; /* Añade espacio entre el ícono y el texto */
+  margin-right: 8px; /* Space between icon and text */
 }
 
 
