@@ -19,7 +19,50 @@ button {
 }
 button:hover { cursor: pointer }
 
+/* Dropdown styles */
+.nav-item {
+  position: relative;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  min-width: 150px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-menu li {
+  list-style: none;
+  padding: 5px 10px;
+}
+
+.dropdown-menu li a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-weight: 500;
+  display: flex; /* Align icons and text in a row */
+  align-items: center;
+  font-family: "Roboto Condensed", sans-serif; /* Apply specific typography */
+}
+
+.dropdown-menu li a svg {
+  margin-right: 8px; /* Añade espacio entre el ícono y el texto */
+}
+
+
+
+.dropdown:hover .dropdown-menu {
+  display: flex;
+}
+
 /* Themes */
 @import "./themes/abby-theme.scss";
 @import "./themes/D0Z3R-theme.scss";
 @import "./themes/python-theme.scss";
+@import "./themes/node-theme.scss";
